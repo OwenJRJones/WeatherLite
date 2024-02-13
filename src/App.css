@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Sora');
+
+:root {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow: auto;
+    resize: both;
+    font-family: Sora;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url('./assets/sunny-sky.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+}

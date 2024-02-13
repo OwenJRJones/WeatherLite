@@ -1,0 +1,19 @@
+.header-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.header-text {
+    font-size: 3.4em;
+    text-shadow: 0 0 20px rgba(5,5,5, 0.8);
+}
+
+.header-subtext {
+    font-size: 120%;
+    text-shadow: 0 0 12px rgb(5,5,5);
+}

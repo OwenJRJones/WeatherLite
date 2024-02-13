@@ -1,0 +1,28 @@
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgba(255,255,255, 0.6);
+    border-radius: 35px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(33,33,33, 0.5);
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    background:rgba(255, 255, 255, 0.4); 
+    border-radius: 15px;
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background:rgba(125, 125, 125, 0.4); 
+}

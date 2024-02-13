@@ -1,0 +1,42 @@
+.weather-item {
+    color: white;
+    background-color: rgba(5,5,5,0.45);
+    border-radius: 25px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(33,33,33,0.8);
+}
+
+.weather-icon {
+    width: 200px;
+    height: 200px;
+    font-size: 300%;
+    margin: 10px;
+    padding: 5px;
+    color: lightblue;
+}
+
+.weather-description {
+    font-size: 100%;
+}
+
+.weather-temp {
+    font-size: 180%;
+}
+
+.weather-item:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.5); 
+}
+
+.wi-day-sunny {
+    color: rgb(255, 255, 120);
+}
+
+.wi-day-rainy, .wi-day-sprinkle {
+    color: rgb(60, 150, 255);
+}
