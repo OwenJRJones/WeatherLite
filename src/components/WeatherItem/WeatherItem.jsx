@@ -7,7 +7,7 @@ function WeatherItem(props) {
       <div className="weather-item">
         <h1>{props.city}</h1>
         <div className="weather-icon">
-          <img src={`../../assets/icons/${props.icon}.svg`} />
+          <i className={`wi ${props.icon}`} />
         </div>
         <div className="weather-description">
           <p>{props.description}</p>
