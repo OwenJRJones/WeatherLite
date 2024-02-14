@@ -1,8 +1,9 @@
-# React + Vite
+# Weather Lite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic React website that uses a RESTful API from [Visual Crossing](https://www.visualcrossing.com/weather-api?ga_api10&gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RUEMGVVUXUcfAg7CRerJqrwc1uB0y8Qi9FGomPTm42KxVAtSNA5P40aAnpGEALw_wcB).
 
-Currently, two official plugins are available:
+Built in my spare time to practice creating and exploring React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check it out below:
+
+[Weather Lite](https://weather-lite2.netlify.app/)
